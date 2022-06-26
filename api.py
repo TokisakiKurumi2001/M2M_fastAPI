@@ -46,7 +46,6 @@ async def translate(translation: TranslationItem):
 async def translateFile(file: UploadFile = File(...), model: str = Form(...)):
     content = await file.read()
     text = content.decode('utf-8')
-    # translated_text, model_type = await pipeline(text, model)
     _, ba_paragraphs = await pipeline(text)
 
     tmp_dir = 'tmp_files'

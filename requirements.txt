@@ -8,7 +8,7 @@ h11==0.13.0
 huggingface-hub==0.8.1
 idna==3.3
 importlib-metadata==4.11.4
-numpy==1.21.6
+numpy==1.22.0
 packaging==21.3
 pydantic==1.9.1
 pyparsing==3.0.9

@@ -19,7 +19,7 @@ requests==2.28.0
 sentencepiece==0.1.96
 six==1.16.0
 sniffio==1.2.0
-starlette==0.19.1
+starlette==0.25.0
 tokenizers==0.12.1
 torch==1.13.1
 tqdm==4.64.0
